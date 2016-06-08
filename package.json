@@ -1,0 +1,33 @@
+{
+  "name": "skeleton-project",
+  "version": "1.0.0",
+  "description": "A skeleton TypeScript, Bootstrap and Sass project",
+  "main": "scripts/app.js",
+  "scripts": {
+    "start": "npm run build",
+    "prebuild": "npm run lint",
+    "build": "concurrently \"npm run tsc:w\" \"npm run sass:w\" \"npm run server\"",
+    "lint": "tslint scripts/**.ts",
+    "tsc": "tsc scripts/**.ts",
+    "tsc:w": "tsc -w scripts/**.ts",
+    "sass": "sass styles/sass/style.scss:styles/style.css",
+    "sass:w": "sass styles/sass/style.scss:styles/style.css -w",
+    "server": "live-server --port=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordchancellor/skeleton-ts-project.git"
+  },
+  "author": "Christopher Ford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordchancellor/skeleton-ts-project/issues"
+  },
+  "homepage": "https://github.com/lordchancellor/skeleton-ts-project#readme",
+  "devDependencies": {
+    "live-server": "^1.0.0",
+    "tslint": "^3.10.2",
+    "typescript": "^1.8.10",
+    "watch": "^0.18.0"
+  }
+}

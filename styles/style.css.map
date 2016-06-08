@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;;AACA,IAAK;EACD,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI;;AAIf,WAAY;EACR,UAAU,ECEE,OAAO;EDDnB,YAAY,ECGA,OAAO;EDFnB,KAAK,ECRO,OAAO;EDUnB,iBAAQ;IACJ,UAAU,ECFF,OAAO;IDGf,KAAK,ECZG,OAAO;;ADgBvB,YAAa;EACT,UAAU,ECbE,OAAO;EDcnB,YAAY,ECZG,OAAO;EDatB,KAAK,ECnBO,OAAO;EDqBnB,kBAAQ;IACJ,UAAU,ECjBC,OAAO;IDkBlB,KAAK,ECvBG,OAAO",
+"sources": ["sass/partials/_global.scss","sass/modules/_palette.scss"],
+"names": [],
+"file": "style.css"
+}

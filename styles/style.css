@@ -1,6 +1,10 @@
-/***************************************
-** Primary Stylesheet for Sandbox 3.0 **
-***************************************/
+/***********************
+** Primary Stylesheet **
+***********************/
+body {
+  background: #333;
+  color: #fff; }
+
 .btn-github {
   background: #333333;
   border-color: #111111;
