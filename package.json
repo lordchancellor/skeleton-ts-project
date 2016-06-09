@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/lordchancellor/skeleton-ts-project#readme",
   "devDependencies": {
+    "concurrency": "^0.1.4",
     "live-server": "^1.0.0",
     "tslint": "^3.10.2",
     "typescript": "^1.8.10",
